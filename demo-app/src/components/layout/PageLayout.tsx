@@ -10,7 +10,7 @@ interface PageLayoutProps {
 
 export function PageLayout({ children }: PageLayoutProps) {
   return (
-    <>
+    <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}>
       <SkipLinks
         links={[
           {
@@ -24,11 +24,11 @@ export function PageLayout({ children }: PageLayoutProps) {
         ]}
       />
       <AppHeader />
-      <main id="content" role="main">
+      <main id="content" role="main" style={{ flex: 1 }}>
         {children}
       </main>
       <AppFooter />
       <Display />
-    </>
+    </div>
   );
 }

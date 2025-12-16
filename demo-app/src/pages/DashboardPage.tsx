@@ -184,7 +184,7 @@ export function DashboardPage() {
           </div>
         </div>
 
-        <div className={fr.cx("fr-col-12", "fr-col-lg-4")}>
+        <div className={fr.cx("fr-col-12", "fr-col-lg-4")} style={{ alignSelf: "flex-start" }}>
           <h2 className={fr.cx("fr-h3", "fr-mb-4w")}>Actions rapides</h2>
 
           <Card
