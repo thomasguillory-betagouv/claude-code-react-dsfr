@@ -5,6 +5,9 @@ import { BrowserRouter } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { App } from "./App";
 
+// Base path for GitHub Pages deployment
+const basename = import.meta.env.BASE_URL;
+
 // Initialize DSFR
 startReactDsfr({
   defaultColorScheme: "system",
@@ -19,7 +22,7 @@ declare module "@codegouvfr/react-dsfr/spa" {
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <App />
     </BrowserRouter>
   </StrictMode>
