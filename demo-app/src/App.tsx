@@ -11,6 +11,7 @@ import { DashboardPage } from "./pages/DashboardPage";
 import { ProfilePage } from "./pages/ProfilePage";
 import { AccessibilityPage } from "./pages/AccessibilityPage";
 import { PrivacyPolicyPage } from "./pages/PrivacyPolicyPage";
+import { AboutPage } from "./pages/AboutPage";
 
 export function App() {
   return (
@@ -28,6 +29,7 @@ export function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/accessibilite" element={<AccessibilityPage />} />
           <Route path="/politique-confidentialite" element={<PrivacyPolicyPage />} />
+          <Route path="/a-propos" element={<AboutPage />} />
 
           {/* Protected routes */}
           <Route path="/dashboard" element={<DashboardPage />} />

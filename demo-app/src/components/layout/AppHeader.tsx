@@ -92,6 +92,11 @@ export function AppHeader() {
           text: "Contact",
           linkProps: { href: "/contact" },
           isActive: isActive("/contact")
+        },
+        {
+          text: "À propos",
+          linkProps: { href: "/a-propos" },
+          isActive: isActive("/a-propos")
         }
       ]}
     />
