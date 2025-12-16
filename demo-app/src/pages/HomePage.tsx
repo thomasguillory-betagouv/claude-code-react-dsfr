@@ -40,7 +40,7 @@ export function HomePage() {
               title="Démarches en ligne"
               desc="Effectuez vos démarches administratives en quelques clics. Simplifiez vos procédures avec nos services numériques."
               linkProps={{ href: "/services/demarches" }}
-              imageUrl="https://www.systeme-de-design.gouv.fr/img/placeholder.16x9.png"
+              imageUrl="https://picsum.photos/seed/demarches/800/450"
               imageAlt="Illustration démarches en ligne"
               footer={
                 <ul className={fr.cx("fr-badges-group")}>
@@ -59,7 +59,7 @@ export function HomePage() {
               title="Informations pratiques"
               desc="Retrouvez toutes les informations utiles pour vos démarches : horaires, documents nécessaires, contacts."
               linkProps={{ href: "/services/informations" }}
-              imageUrl="https://www.systeme-de-design.gouv.fr/img/placeholder.16x9.png"
+              imageUrl="https://picsum.photos/seed/informations/800/450"
               imageAlt="Illustration informations pratiques"
               footer={
                 <ul className={fr.cx("fr-badges-group")}>
@@ -78,7 +78,7 @@ export function HomePage() {
               title="Aide et support"
               desc="Besoin d'aide ? Notre équipe est disponible pour vous accompagner dans toutes vos démarches."
               linkProps={{ href: "/services/aide" }}
-              imageUrl="https://www.systeme-de-design.gouv.fr/img/placeholder.16x9.png"
+              imageUrl="https://picsum.photos/seed/support/800/450"
               imageAlt="Illustration aide et support"
               footer={
                 <ul className={fr.cx("fr-badges-group")}>

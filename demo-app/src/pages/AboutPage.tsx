@@ -67,7 +67,7 @@ export function AboutPage() {
             <Tile
               title="Accessibilité"
               desc="Conformité RGAA niveau AA pour garantir l'accès à tous les citoyens, quelles que soient leurs capacités."
-              imageUrl="https://www.systeme-de-design.gouv.fr/img/placeholder.1x1.png"
+              imageUrl="https://picsum.photos/seed/accessibilite/400/400"
               imageAlt="Illustration accessibilité"
               orientation="vertical"
             />
@@ -76,7 +76,7 @@ export function AboutPage() {
             <Tile
               title="Simplicité"
               desc="Une interface claire et intuitive pour faciliter les démarches des usagers et réduire la complexité administrative."
-              imageUrl="https://www.systeme-de-design.gouv.fr/img/placeholder.1x1.png"
+              imageUrl="https://picsum.photos/seed/simplicite/400/400"
               imageAlt="Illustration simplicité"
               orientation="vertical"
             />
@@ -85,7 +85,7 @@ export function AboutPage() {
             <Tile
               title="Open Source"
               desc="Code ouvert et réutilisable pour favoriser la collaboration et la mutualisation entre services publics."
-              imageUrl="https://www.systeme-de-design.gouv.fr/img/placeholder.1x1.png"
+              imageUrl="https://picsum.photos/seed/opensource/400/400"
               imageAlt="Illustration open source"
               orientation="vertical"
             />
